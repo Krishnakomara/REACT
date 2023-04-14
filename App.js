@@ -1,4 +1,7 @@
-       /*
+      import React from "react";
+      import ReactDOM from "react-dom";      
+      
+      /*
     <div id= "parent">
         <div id="child">
             <h1>I am h1 tag</h1>
@@ -10,8 +13,7 @@
         </div>
     </div>
 
-       */
-       
+       */     
        
        const parent = React.createElement("div",{id:"parent"},[
             React.createElement("div",{id:"child"},
